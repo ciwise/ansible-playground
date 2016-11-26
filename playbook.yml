@@ -3,7 +3,7 @@
   user: root
   sudo: False
   vars:
-    MySQL_root_pass: RadioBuzz0706
+    MySQL_root_pass: 
 
   tasks:
     - name: Set MySQL root password before installing
