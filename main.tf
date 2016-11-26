@@ -32,6 +32,11 @@ resource "digitalocean_droplet" "ciwise-3" {
 
 }
 
+resource "digitalocean_domain" "default" {
+  name = "ansible.ciwise.com"
+  ip_address = "${digitalocean_droplet.ciwise-3.ipv4_address}"
+}
+
 output "ip_ciwise" {
   value = ["${digitalocean_droplet.ciwise-3.ipv4_address}"]
 }
