@@ -1,0 +1,16 @@
+{
+  "variable": {
+    "do_token" :{
+      "default": ""
+    },
+    "pub_key": {
+      "default": ""
+    },
+    "pvt_key": {
+      "default": ""
+    },
+    "ssh_fingerprint": {
+      "default": ""
+    }
+  }
+}
