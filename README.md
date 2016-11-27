@@ -1,4 +1,4 @@
-#digital-ocean-3
+#ansible-playground
 
 This project contains everything needed to build ciwise-3 using Terraform except for the tf_variables 
 file containing security information. A tf_vars template file is included without values for reference.
